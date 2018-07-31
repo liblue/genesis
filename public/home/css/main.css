@@ -1,0 +1,405 @@
+
+
+article{
+	
+	float:left;
+	width:940px;
+	
+	background: white;
+}
+article .head{
+	
+	
+	padding:10px 0px 0px 0px;
+	height:115px;
+	margin-bottom: 40px;
+	border-bottom:1px solid #dddddd ;
+	
+	
+}
+article .head h2{
+	margin-left: 25px;
+	height:65px;
+	line-height: 65px;
+}
+
+article .head  p{	
+	display: inline-block;	
+	font-size:xx-small;
+ 	color: #c8d2d8;  		
+}
+
+article .head .info{
+	width:170px;
+	float:left;	
+	margin-left: 25px;
+}
+article .head .tu{
+	float:right;
+	width:80px;
+	text-align: center;
+}
+article .head .biao2{
+	
+	border-left:2px  solid #efefef;
+	border-right:2px  solid #efefef;
+}
+
+
+article .content{
+	padding:0px 25px 50px 25px;
+	
+	border-bottom:1px solid #dddddd ;
+}
+article .fenye{
+	
+	vertical-align: middle;
+	height:120px;
+        margin-top:50px; 
+}
+article .both{
+  
+        position: relative;
+	width:140px;
+	height: 100%;
+	margin: 0 auto;
+	
+}
+article .fenye .dianzan{
+	
+	
+	width:140px;
+	height:70px;
+	
+}
+article .fenye .zan{
+	position: absolute;
+	margin: 0 auto;
+	top: 23px;
+	left:58px;
+	width:24px;
+	height:24px;
+	
+}
+
+article .com_fenye{
+    
+    margin-top:50px;
+   
+}
+article .com_fenye  ul{
+        width:800px;
+        margin:0 auto;
+	display: block;
+	text-align: center;
+	height:70px;
+        
+        vertical-align: middle;
+	
+}
+article .com_fenye  ul li{
+	width:40px;
+	height:40px;
+	border-radius: 2px;
+	list-style-type: none;	
+	margin-right:10px;
+	float: left;	
+	color: #dddddd;
+	text-align: center;	
+        line-height: 40px;
+}
+/*.com_fenye ul li:first-child{
+     background-image: url(../img/main/prevpage.png);
+    
+}*/
+.com_fenye ul li{
+	background-image: url(../img/main/page.png);
+	
+}
+.com_fenye ul li.active{
+	background-image: url(../img/main/currentpage.png);
+	}
+.com_fenye ul li.nextpage{
+	background-image: url(../img/main/nextpage.png);
+	}
+
+article .fenye  ul li  span{
+	
+	
+	line-height:40px;
+	
+	
+	}
+
+article .space{
+	
+	height:30px;
+	width:100%;
+	background: #f8f8f8 ;
+	
+	
+	
+}
+article .reply{		
+	height: 120px;
+/*	border-bottom:1px solid #dddddd ;*/
+	margin-bottom: 30px;
+}
+.reply .replycon{
+	margin:40px 25px 40px 25px;
+	width:890px;
+	height:100px;
+	
+}
+article .reply .replytext{
+	font-size:16px;
+	line-height: 40px;
+   overflow:hidden;
+	height: 40px;
+	width:100%;
+	resize:none ;
+	border:1px solid #dddddd;
+	background-image:url(../img/main/reply_text1.png) ;	
+	outline: none;
+}
+
+.reply_submit{
+	float:right;
+	display: block;
+	width: 100px;
+	height: 35px;
+	border: none;
+	border-radius: 2px;
+	background-image:url(../img/main/reply_submit.png) ;	
+	margin-top: 10px;
+	background-color:transparent;
+	outline:none;
+}
+
+
+
+
+article .comment{
+	
+	
+	
+}
+article .comment ul{
+	
+	display: block;
+	margin:0px 25px 0px 25px;
+	width:900px;
+}
+
+article .comment ul  li{
+
+    width:100%;
+    min-height: 90px;
+    list-style-type: none;
+    border-top:1px solid #dddddd ;
+    
+   
+    
+}
+.comment ul  li.first{
+	
+	
+	border-top:1px solid white ;
+	
+}
+
+article .comment ul  li .com_head{
+	margin-top: 40px;
+	position: relative;
+	height: 48px;
+	width:100%;	
+	 margin-bottom:40px;
+	 font-size:15px;
+}
+.comment .user_thumb img{
+	position: absolute;
+	top:5px;
+	
+	height:40px;
+	width: 40px;
+}
+.comment ul li .com_head p.com_user{
+	position: absolute;	
+	left:55px;
+    top:-2px;  
+    width:165px;
+}
+
+
+.comment ul li .com_head p.com_user img{
+	position: absolute;	
+	top:2px;  
+	margin-left: 30px;
+}
+
+.comment ul li .com_head p.com_con{
+	position: absolute;	
+	left:55px;
+    top:25px;  
+    color:#6e6e6e;
+}
+.comment ul li .com_head p.com_thumb{
+	position: absolute;
+	width:12px;
+
+	height:12px;
+	right:90px;
+	bottom: -10px;
+	
+}
+.comment ul li .com_head  p.com_zan{
+	position: absolute;
+	width:50px;
+	height: 12px;
+	right:15px;
+	bottom: -10px;
+	text-align: center;
+	color:#b4b4b4;
+/*        background-repeat:no-repeat;   
+        background-image: url(../img/main/com_zan.png);
+        background-position:center center;*/
+	
+}
+
+.comment ul li .com_head  p.com_zan span{
+	position: absolute;
+    right:53px;
+	
+}
+.comment ul li .com_reply{
+    padding-left:20px;
+	margin-left: 55px;
+	line-height: 40px;
+	font-size:16px;
+	width: 808px;
+	height:40px;
+	resize:none ;
+	border:1px solid #dddddd;
+    overflow:hidden;
+	background-image:url(../img/main/reply_text1.png) ;	
+	 outline:none;
+}
+.comment .com_show{
+	height:95px;
+	width:883px;
+	display: none;
+	 margin-bottom:30px;
+}
+.com_submit{
+	float:right;
+	display: block;
+	width: 100px;
+	height: 35px;
+	background: none;
+	background-image:url(../img/main/com_submit.png) ;	
+	margin-top: 10px;
+	border: 0 none;
+	outline:none;
+	
+}
+article .comment ul  li ul{
+	
+	margin-left:55px;	
+	margin-bottom: 40px;
+}
+
+article .comment ul  li li.huifu {
+	position: relative;
+ 	border-top: 0px ;
+    min-height: 66px;
+ 	width:828px;
+ 	height:66px;
+ 	margin-bottom: 12px;
+ 	background-image: url(../img/main/com_reply.png);	
+ 	 font-size:15px;
+ 	
+ }
+ 
+ article .comment ul  li li.huifu  p.com_user{
+ 	position: absolute;
+ 	left:15px;
+    top:13px;  
+ 	
+ }
+ 
+  article .comment ul  li li.huifu  p.com_con{
+  	
+    position: absolute;
+ 	left:15px;
+    top:40px;  
+    color:#929292;
+  }
+  
+  
+  
+  
+/*右边*/
+aside{
+	float:right;
+	width:200px;
+	
+}
+aside .user{
+	margin:0 auto;
+	padding:30px 20px 20px 20px;
+    width:160px;
+    height:150px;
+    text-align: center;
+    background: white;
+}
+aside .user h3{
+	margin-top:15px;
+	
+}
+aside p{
+	
+	color:#a3a3a3;
+}
+aside .hot_art{
+	margin-top: 30px;
+	width:100px;
+	height:30px;
+	 text-align: center;
+	 color: #b3c0c8;
+}
+aside ul{
+
+	width:200px;
+	background: white;
+	
+}
+aside ul li{		
+	width:150px;
+	height:50px;
+	border-top:1px solid #eeeeee;
+	margin-left:25px;
+	line-height: 50px;
+	cursor: pointer;
+	font-size:15px;
+}
+
+aside ul li a{	
+   color:#9c9ea0;
+
+}
+aside ul li.first{	
+
+border:none;
+
+
+}
+aside ul li a:hover{
+	
+	color: black;
+}
+
+
+
+
+
+
